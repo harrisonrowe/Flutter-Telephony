@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Contact } from '../models/contact/contact';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  contacts: [Contact] = [new Contact("test-contact")];
 
+  constructor() {
+    // No-op
+  }
 }
