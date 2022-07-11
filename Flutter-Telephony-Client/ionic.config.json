@@ -1,0 +1,7 @@
+{
+  "name": "Flutter-Telephony-Client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
